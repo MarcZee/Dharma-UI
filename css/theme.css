@@ -1,0 +1,8 @@
+
+	#layer-main {
+	    min-height: 135px;
+		max-width: 350px;
+		
+		position: relative;
+		clear: both;
+	}

@@ -1,0 +1,9 @@
+ window.alert = function(){};
+window.confirm = function(){};
+window.prompt = function(){};
+window.open = function(){};
+window.print = function(){};
+
+
+
+http://codepen.io/Elbone/details/pFGuy

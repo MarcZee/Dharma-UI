@@ -1,0 +1,92 @@
+/* 
+	http://icomoon.io/#home
+	
+	http://fortawesome.github.io/Font-Awesome/
+	http://fontello.com/
+	http://t3n.de/news/10-kostenlose-icon-fonts-450651/
+*/	
+	
+	/*
+		@font-face {  
+		    font-family: 'MyWebFont';  
+		    src: url('webfont.eot');
+		    src: url('webfont.eot?#iefix') format('embedded-opentype'), 
+		    url('webfont.woff') format('woff'),
+		    url('webfont.ttf')  format('truetype'),   
+		    url('webfont.svg#svgFontName') format('svg');  
+		}
+	*/	
+		
+	/* Times New Roman-based stack
+	font-family: Cambria, "Hoefler Text", Utopia, "Liberation Serif", "Nimbus Roman No9 L Regular", Times, "Times New Roman", serif; */
+	
+	/* Modern Georgia-based serif stack
+	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif; */
+	
+	/* Traditional Garamond-based serif stack
+	font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif; */
+	
+	/* Helvetica/Arial-based sans serif stack
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif; */
+	
+	/* Verdana-based sans serif stack
+	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif; */
+	
+	/* Trebuchet-based sans serif stack
+	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif; */
+	
+	/* Impact-based sans serif stack
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", sans-serif; */
+	
+	/* Monospace stack
+	font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace; */
+	
+
+@font-face {
+	font-family:"WebSymbolsRegular";
+	src:url("../../assets/fonts/WebSymbols-Regular.eot?") format("eot"),url("../../assets/fonts/WebSymbols-Regular.woff") format("woff"),url("../../assets/fonts/WebSymbols-Regular.ttf") format("truetype"),url("../../assets/fonts/WebSymbols-Regular.svg#WebSymbols-Regular") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+@font-face {
+	font-family: MarVoSym;
+	local: marvosym;
+	src: url('../../assets/fonts/marvosym.ttf');
+	format('opentype');
+}
+
+@font-face {
+	font-family: SocialFontIcons;
+	local: SOCIAL FONT ICONS;
+	src: url('../../assets/fonts/SOCIAL FONT ICONS.ttf');
+	format('opentype');
+}
+
+@font-face {
+	font-family: Unicons;
+	local: unicons.1.0;
+	src: url('../../assets/fonts/unicons.1.0.ttf');
+	format('opentype');
+}
+
+@font-face {
+	font-family: WebTools;
+	local: Web Tools;
+	src: url('../../assets/fonts/Web Tools.ttf');
+	format('opentype');
+}
+
+@font-face {
+	font-family: Chalkboard;
+	local: chalkboard;
+	src: url('../../assets/fonts/chalkboard.ttf');
+	format('opentype');
+}
+
+@font-face {
+	font-family: Prototype;
+	local: Prototype;
+	src: url('../../assets/fonts/Prototype.ttf');
+	format('opentype');
+}

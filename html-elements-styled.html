@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/WebPage" xml:lang="en" lang="en">
+	<head>
+		<title>Dharma HTML & CSS</title>
+		
+		<base href="http://localhost/data/dharma-html/" target="_self" />
+	
+		<basefont face="" color="red" size="5" />
+		
+		<link href="http://localhost/data/dharma-html/" rel="canonical" />
+		
+		<link href="assets/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+		
+		<link href="css/dharma/reset.css" type="text/css" rel="stylesheet"  />
+		<link href="css/dharma/dharma.css" type="text/css" rel="stylesheet"  />	
+		<link href="css/dharma/fonts.css" type="text/css" rel="stylesheet"  />	
+		<link href="css/dharma/filters.css" type="text/css" rel="stylesheet"  />
+		<link href="css/dharma/shapes.css" type="text/css" rel="stylesheet"  />
+		<link href="css/dharma/grids/12-columns.css" type="text/css" rel="stylesheet"  />
+		
+		<link href="css/project.css" type="text/css" rel="stylesheet"  />		
+		
+		<link href="css/vendor/animate.css" type="text/css" rel="stylesheet"  />
+		
+		<meta charset="UTF-8" />		
+		<meta content="width=device-width, user-scalable=true;" name="viewport"/>
+		
+		<meta name="language" content="en" />
+		<meta name="author" content="Dharma HTML & CSS" />
+		<meta name="abstract" content="Dharma HTML & CSS" />
+		<meta name="copyright" content="Dharma HTML & CSS" />
+		<meta name="designer" content="Dharma HTML & CSS" />
+		<meta name="revisit-after" content="3 days" />
+		<meta name="robots" content="index, follow" />				
+
+		<link href="http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet" type="text/css" />
+		<style>
+			@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+		</style>
+		
+		<style>
+			@font-face {
+				font-family: "WebSymbolsRegular";
+				src: url("assets/fonts/WebSymbols-Regular.eot?") format("eot"),url("assets/fonts/WebSymbols-Regular.woff") format("woff"),url("assets/fonts/WebSymbols-Regular.ttf") format("truetype"),url("assets/fonts/WebSymbols-Regular.svg#WebSymbols-Regular") format("svg");
+				font-weight: normal;
+				font-style: normal;
+			}
+		</style>		
+	</head>
+	<body dir="ltr">
+	
+		<noscript>
+			<div>
+				<span>Please activate Javascript.</span>
+			</div>
+		</noscript>
+	
+		<header class="page">	
+			<section>
+				<article>1. Lorem ipsum dolor sit amet...</article>
+				<article>2. Lorem ipsum dolor sit amet...</article>
+				<article>3. Lorem ipsum dolor sit amet...</article>
+			</section>
+			
+			<nav>
+				<ul>
+					<li>Test 1</li>
+					<li>Test 2</li>
+					<li>Test 3</li>
+					<li>Test 4</li>
+					<li>Test 5</li>
+					<li>Test 6</li>
+					<li>Test 7</li>
+					<li>Test 8</li>
+				</ul>
+				
+				<ol>
+					<li>Test 1</li>
+					<li>Test 2</li>
+					<li>Test 3</li>
+					<li>Test 4</li>
+					<li>Test 5</li>
+					<li>Test 6</li>
+					<li>Test 7</li>
+					<li>Test 8</li>
+				</ol>	
+	 			
+	 			<div>
+	 				<dir>
+						<li>html</li>
+						<li>xhtml</li>
+						<li>css</li>
+					</dir> 
+	 			</div>	
+	 			
+	 			<div>
+	 				<menu type="context" id="mymenu">
+						<menuitem label="Refresh" onclick="window.location.reload();" icon="ico_reload.png"></menuitem>
+					  	<menu label="Share on...">
+							<menuitem label="Twitter" icon="ico_twitter.png" onclick="window.open('//twitter.com/intent/tweet?text='+window.location.href);"></menuitem>
+						    <menuitem label="Facebook" icon="ico_facebook.png" onclick="window.open('//facebook.com/sharer/sharer.php?u='+window.location.href);"></menuitem>
+						</menu>
+						<menuitem label="Email This Page" onclick="window.location='mailto:?body='+window.location.href;"></menuitem>
+					</menu>
+	 			</div>	
+			</nav>
+		</header>
+		
+		<main itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/WebPageElement" class="page">
+			<div>
+				<form>
+					<fieldset>
+						<legend>Form</legend>
+					
+						<div>
+							<button type="button" name="button" value="1">
+								<span>Send</span>
+							</button>
+						</div>				
+						
+						<div>				
+							<input type="submit" name="submit" value="Send" />
+						</div>
+						
+						<div>				
+							<input type="reset" name="reset" value="Reset" />
+						</div>
+						
+						<div>
+							<textarea cols="20" rows="10" name="textarea"></textarea>
+						</div>
+						
+						<div>
+							<select name="select">
+								<option value="1">Entry 1</option>
+								<option value="2">Entry 2</option>
+								<option value="3">Entry 3</option>
+								<optgroup label="Group 1">
+									<option value="1.1">Entry 1.1</option>
+									<option value="2.1">Entry 2.1</option>
+									<option value="3.1">Entry 3.1</option>
+								</optgroup>
+							</select>
+						</div>
+						
+						<div>
+							<datalist id="browsers">
+								<option value="Internet Explorer">
+								<option value="Firefox">
+								<option value="Chrome">
+								<option value="Opera">
+								<option value="Safari">
+							</datalist> 
+						</div>
+						
+						<div>
+							<label for="keygen">Keygen</label>
+							<keygen name="keygen">
+						</div>
+		
+						<div>
+							<label for="text">Text</label>			
+							<input type="text" name="text" value="" />
+						</div>
+						
+						<div>				
+							<label for="password">Password</label>			
+							<input type="password" name="password" value="" />
+						</div>
+						
+						<div>
+							<label for="checkbox">Checkbox</label>			
+							<input type="checkbox" name="checkbox" value="" />
+						</div>
+						
+						<div>
+							<label for="radio">Radio</label>					
+							<input type="radio" name="radio" value="" />
+						</div>
+						
+						<div>				
+							<label for="email">E-Mail</label>
+							<input type="email" name="email" value="" />
+						</div>
+						
+						<div>				
+							<label for="search">Search</label>
+							<input type="search" name="search" value="" />
+						</div>				
+						
+						<div>				
+							<label for="tel">Tel</label>
+							<input type="tel" name="tel" value="" />
+						</div>
+						
+						<div>				
+							<label for="url">Url</label>
+							<input type="url" name="url" value="" />
+						</div>
+						
+						<div>				
+							<input type="hidden" name="hidden" value="" />
+						</div>
+						
+						<div>				
+							<input type="image" src="img_submit.gif" alt="Submit" title="Submit" />
+						</div>
+						
+						<div>				
+							<input type="file" name="file" value="" />
+						</div>
+						
+						<div>				
+							<input type="color" name="color" value="" />
+						</div>
+						
+						<div>				
+							<input type="number" name="number" min="1" max="5" step="1" value="2" />
+						</div>
+						
+						<div>				
+							<input type="range" name="range" value="" min="1" max="5" step="1" value="2" />
+						</div>
+						
+						<div>				
+							<label for="time">Time</label>
+							<input type="time" name="time" value="" />
+						</div>
+						
+						<div>				
+							<label for="date">Date</label>
+							<input type="date" name="date" value="" />
+						</div>
+						
+						<div>				
+							<label for="datetime">Datetime</label>
+							<input type="datetime" name="datetime" value="" />
+						</div>
+						
+						<div>				
+							<label for="datetime-local">Datetime local</label>
+							<input type="datetime-local" name="datetime-local" value="" />
+						</div>
+						
+						<div>				
+							<label for="month">Month</label>
+							<input type="month" name="month" value="" />
+						</div>
+						
+						<div>				
+							<label for="week">Week</label>
+							<input type="week" name="week" value="" />
+						</div>
+					</fieldset>
+				</form>
+				
+				<div>
+					<h1>Headline 1</h1>
+				</div>
+				
+				<div>				
+					<h2>Headline 2</h2>
+				</div>
+				
+				<div>				
+					<h3>Headline 3</h3>
+				</div>
+				
+				<div>				
+					<h4>Headline 4</h4>
+				</div>
+				
+				<div>				
+					<h5>Headline 5</h5> 
+				</div>
+				
+				<div>				
+					<h6>Headline 6</h6> 
+				</div>
+				
+				<div>				
+					<span>Span Text</span> 
+				</div>
+				
+				<div>
+					<i>Pre text</i>
+				</div>
+				
+				<div>
+					<u>Pre text</u>
+				</div>
+				
+				<div>
+					<b>Pre text</b>
+				</div>
+				
+				<div>
+					<small>Small text</small>
+				</div>
+				
+				<div>
+					<sub>Sub text</sub> <sup>Sup text</sup>
+				</div>
+				
+				<div>
+					<code>
+						A piece of computer code
+					</code> 
+				</div>
+				
+				<div>
+					<pre>Pre text</pre>
+				</div>
+				
+				<div>
+					<samp>Sample output from a computer program</samp>
+				</div>
+				
+				<div>
+					<kbd>Keyboard input</kbd> 
+				</div>
+				
+				<div>
+					User <bdi>إيان</bdi>: 90 points
+				</div>
+				
+				<div>				
+					<bdo dir="rtl">
+						This text will go right-to-left.
+					</bdo> 
+				</div>
+				
+				<div>				
+					<big>Bigger text</big>
+				</div>
+				
+				<div>
+					<cite>The Scream</cite> by Edward Munch. Painted in 1893.
+				</div>
+
+				<div>
+					<br />
+				</div>
+				
+				<div>
+					To learn AJAX, you must be familiar with the XML<wbr>Http<wbr>Request Object.
+				</div>
+				
+				<div>
+					<p>
+						p text
+					</p>
+				</div>
+				
+				<div>
+					<center>This is a centered text.</center>
+				</div>
+				
+				<div>
+					The <abbr title="World Health Organization">WHO</abbr> was founded in 1948. 
+				</div>
+				
+				<div>
+					Can I get this <acronym title="as soon as possible">ASAP</acronym>?
+				</div> 
+				
+				<div>
+					<address>
+						Marc Ziegerath<br />
+						Grüner Weg 77a<br />
+						12359 Berlin<br />
+						Deutschland<br />
+					</address> 
+				</div>
+				
+				<div>
+					<blockquote cite="http://www.worldwildlife.org/who/index.html">
+						For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+					</blockquote> 
+				</div>
+				
+				<div>
+					<dl>
+						<dt>Coffee</dt>
+					    <dd>Black hot drink</dd>
+					    
+					 	<dt>Milk</dt>
+					    <dd>White cold drink</dd>
+					</dl> 
+				</div>
+				
+				<div>				
+					<em>em text</em>
+				</div>
+				
+				<div>				
+					My favorite color is <del>blue</del> <ins>red</ins>!
+				</div>
+				
+				<div>				
+					<dfn>Definition term</dfn>
+				</div>
+				
+				<div>				
+					<details>
+						<summary>Copyright 1999-2014.</summary>
+						<p> - by Refsnes Data. All Rights Reserved.</p>
+						<p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+					</details> 
+				</div>
+				
+				<div>				
+					<dialog>This is a dialog text.</dialog>
+				</div>
+
+				<div>				
+					<font size="13" face="verdana" color="green">Font text.</font>		
+				</div>
+				
+				<div>		 
+					<q>q text</q> 
+				</div>
+				
+				<div>				
+					<ruby>
+						漢 <rt><rp>(</rp>ㄏㄢˋ<rp>)</rp></rt>
+					</ruby>
+				</div>
+				
+				<div>				
+					<s>My car is blue.</s>			
+				</div>
+
+				<div>
+					Do not forget to buy <mark>milk</mark> today.
+				</div>
+				
+				<div>
+					<output>Output</output>
+				</div>
+				
+				<div>
+					<strike>Striked text</strike> 
+				</div>
+
+				<div>
+					I have a date on <time datetime="2008-02-14">Valentines day</time>.  
+				</div>
+				
+				<div>
+ 					<var>Variable</var>
+				</div>
+				
+				<div>
+					<tt>teletype text</tt>
+				</div>
+				
+				<div>
+					<template>
+						Das ist ein template!
+					</template>
+				</div>
+
+				<div>
+					<a href="index.html" title="Startpage">Startpage</a>
+				</div>
+				
+				<div>
+					<hr />
+				</div>
+				
+				<div>
+					<figure>
+						<img src="" alt="Image" title="Image" />
+						
+						<figcaption>This is an image.</figcaption>
+					</figure>
+				</div>
+				
+				<div>
+	 				<table>
+	 					<colgroup>
+							<col span="2" style="background-color:red">
+							<col style="background-color:yellow">
+						</colgroup>
+						
+						<caption>Table</caption>
+						
+	 					<thead>
+	 						<tr>
+		 						<th>Headline 1 <dialog open>This is an open dialog window</dialog></th>
+		 						<th>Headline 2</th>
+		 						<th>Headline 3</th>
+		 					</tr>
+	 					</thead>
+	 					<tbody>
+	 						<tr>
+	 							<td>Info 1</td>
+	 							<td>Info 2</td>
+	 							<td>Info 3</td>
+	 						</tr>
+	 					</tbody>
+	 					<tfoot>
+	 						<tr>
+	 							<td>Info 1</td>
+	 							<td>Info 2</td>
+	 							<td>Info 3</td>
+	 						</tr>
+	 					</tfoot>
+	 				</table>
+	 			</div>
+	 			
+	 			<div>
+		 			<meter value="2" min="0" max="10">2 out of 10</meter><br>
+					<meter value="0.6">60%</meter>
+		 		</div>
+		 		
+		 		<div>
+					<progress value="22" max="100"></progress>
+				</div> 
+
+				<div>
+					<applet code="Bubbles.class" width="350" height="350">
+						Java applet that draws animated bubbles.
+					</applet> 
+				</div>
+	
+				<div>
+					<audio controls>
+						<source src="horse.ogg" type="audio/ogg" />
+						<source src="horse.mp3" type="audio/mpeg" />
+					 	Your browser does not support the audio tag.
+					</audio> 
+				</div>
+ 				
+ 				<div>
+ 					<video width="320" height="240" controls>
+						<source src="forrest_gump.mp4" type="video/mp4" />
+						<source src="forrest_gump.ogg" type="video/ogg" />
+						
+						<track src="subtitles_en.vtt" kind="subtitles" srclang="en" label="English" />
+						<track src="subtitles_no.vtt" kind="subtitles" srclang="no" label="Norwegian" />
+					</video>
+ 				</div>
+ 				
+ 				<div>
+					<canvas id="myCanvas"></canvas>
+
+					<script type="text/javascript">
+						var canvas=document.getElementById('myCanvas');
+						var ctx=canvas.getContext('2d');
+						ctx.fillStyle='#FF0000';
+						ctx.fillRect(0,0,80,80);
+					</script> 
+				</div> 
+				
+				<div>
+					<img src="planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap" />
+
+					<map name="planetmap">
+						<area shape="rect" coords="0, 0, 82, 126" href="sun.htm" alt="Sun" />
+						<area shape="circle" coords="90, 58, 3" href="mercur.htm" alt="Mercury" />
+						<area shape="circle" coords="124, 58, 8" href="venus.htm" alt="Venus" />
+					</map>  
+				</div>
+	 			
+	 			<div>
+	 				<frameset cols="25%,*,25%">
+						<frame src="frame_a.htm" />
+						<frame src="frame_b.htm" />
+						<frame src="frame_c.htm" />
+					
+						<noframes>No frames.</noframes>
+					</frameset> 
+	 			</div>
+	 			
+	 			<div>
+	 				<iframe src="http://www.w3schools.com"></iframe> 
+	 			</div>
+	 			
+	 			<div>
+	 				<object data="horse.wav">
+						<param name="autoplay" value="true">
+					</object> 
+	 			</div>
+
+			</div>
+		</main>
+		
+		<footer class="page">
+			<section>
+				Lorem ipsum dolor sit amet...			
+			</section>
+			
+			<aside>
+				Lorem ipsum dolor sit amet...			
+			</aside>
+		</footer>
+			
+	</body>
+</html>
+
+

@@ -1,0 +1,108 @@
+
+/* Diagnostics for HTML and CSS failures, it outlines them */
+
+/* Empty Elements */
+div:empty, span:empty, li:empty, p:empty, td:empty, th:empty { 
+	padding: 20px; 
+	border: 2px dotted #D31B2A !important;
+}
+
+/* Empty Attributes */
+*[alt=""], *[title=""], *[class=""], *[id=""], a[href=""], a[href="#"] { 
+	border: 2px dotted #D31B2A !important;
+}
+
+/* Deprecated Elements */
+applet, basefont, center, dir, font, isindex, menu, s, strike, u { 
+	border: 2px dotted #D31B2A !important;
+}
+
+/* Deprecated Attributes */
+*[background], *[bgcolor], *[clear], *[color], *[compact], *[noshade], *[nowrap], *[size], *[start],
+*[bottommargin], *[leftmargin], *[rightmargin], *[topmargin], *[marginheight], *[marginwidth], *[alink], *[link], *[text], *[vlink],
+*[align], *[valign],
+*[hspace], *[vspace],
+*[height], *[width],
+ul[type], ol[type], li[type] { 
+	border: 2px dotted #D31B2A !important;
+}
+
+/* Proposed Deprecated Elements */
+input[type="button"], big, tt { 
+	border: 2px dotted #D31B2A !important;
+}
+
+/* Proposed Deprecated Attributes */
+*[border], a[target], table[cellpadding], table[cellspacing], *[name] { 
+	border: 2px dotted #D31B2A !important;
+}
+
+
+
+
+
+
+/* Diagnostics for HTML and CSS failures, it outlines them - Part 2 */
+
+div:empty, span:empty,
+li:empty, p:empty,
+td:empty, th:empty {
+	padding: 0.5em; 
+	background: yellow;
+}
+
+*[style], font, center {
+	outline: 2px dotted #D31B2A;
+}
+
+*[class=""], *[id=""] {
+	outline: 2px dotted #D31B2A;
+}
+
+img[alt=""] {
+	border: 2px dotted #D31B2A !important;
+}
+
+img:not([alt]) {
+	border: 2px dotted #D31B2A !important;
+}
+
+img[title=""] {
+	outline: 2px dotted #D31B2A;
+}
+
+img:not([title]) {
+	outline: 2px dotted #D31B2A;
+}
+
+table:not([summary]) {
+	outline: 2px solid #D31B2A;
+}
+
+table[summary=""] {
+	outline: 2px dotted #D31B2A;
+}
+
+th {
+	border: 2px dotted #D31B2A !important;
+}
+
+th[scope="col"], th[scope="row"] {
+	border: none;
+}
+
+a[href]:not([title]) {
+	border: 2px dotted #D31B2A !important;
+}
+
+a[title=""] {
+	outline: 2px dotted #D31B2A;
+}
+
+a[href="#"] {
+	background: lime;
+}
+
+a[href=""] {
+	background: fuchsia;
+}
